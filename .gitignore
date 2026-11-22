@@ -1,0 +1,36 @@
+# Секреты и переменные окружения
+.env
+.env.*
+!.env.example
+
+# Локальные базы данных
+*.db
+*.sqlite
+*.sqlite3
+monti.db
+
+# Виртуальные окружения
+venv/
+.venv/
+env/
+ENV/
+
+# Кэш и артефакты Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Логи и временные файлы
+*.log
+logs/
+*.tmp
+*.bak
+
+# Редактор и ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
